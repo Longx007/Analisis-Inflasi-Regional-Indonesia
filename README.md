@@ -64,6 +64,8 @@ Data yang telah bersih dianalisis menggunakan Pivot Table untuk menjawab serangk
 
 Pertanyaan bisnis lengkap (Business Question A & B) beserta jawaban rinci dapat dilihat pada sheet `Business Question` di dalam dataset.
 
+![Pivot Table Analysis](./pivot_table_analysis.png)
+
 ---
 
 ## Tahap 3 — Dashboard Interaktif (Looker Studio)
@@ -80,6 +82,8 @@ Dashboard dirancang untuk menjawab kebutuhan visualisasi berikut:
 
 🔗 **Dashboard interaktif:** [Looker Studio — Analisis Laju Inflasi (M-t-M) Nasional](https://lookerstudio.google.com/reporting/b991661d-c355-4b9b-a80c-94fffc71f99f)
 
+![Dashboard Overview](./dashboard_overview.png)
+
 ---
 
 ## Temuan Utama & Analisis
@@ -87,6 +91,8 @@ Dashboard dirancang untuk menjawab kebutuhan visualisasi berikut:
 **Tren nasional:** Dari 150 Kabupaten/Kota di 34 provinsi, rata-rata laju inflasi nasional (M-t-M) naik dua kali lipat — dari **0,12% pada Februari** menjadi **0,26% pada Maret 2024** — seiring 139 dari 150 wilayah masih mencatat deflasi ringan. Kenaikan ini terjadi menjelang bulan Ramadan, didorong oleh peningkatan permintaan barang dan jasa yang tidak diimbangi peningkatan pasokan, sehingga menciptakan kelangkaan yang mendorong kenaikan harga.
 
 **Persebaran regional:** Provinsi dengan laju inflasi tinggi terkonsentrasi di **Pulau Jawa dan Sumatera**, dengan pola persebaran yang saling berdekatan — mengindikasikan adanya masalah distribusi pasokan yang menyebabkan efek domino ke daerah-daerah sekitarnya (tekanan harga menyebar secara berantai).
+
+![Peta Panas Regional](./peta_panas_regional.png)
 
 **Akselerasi inflasi:** Proporsi wilayah dengan "Akselerasi Kuat" meningkat dari 35,7% (Februari) menjadi 39,4% (Maret 2024), sejalan dengan penurunan jumlah wilayah deflasi dari 119 menjadi 115 — menandakan tekanan inflasi mulai merambah ke lebih banyak daerah, tidak lagi bersifat lokal.
 
@@ -96,6 +102,8 @@ Dashboard dirancang untuk menjawab kebutuhan visualisasi berikut:
 3. **Pendidikan dan Kesehatan**
 
 Sektor Makanan & Pakaian serta Rekreasi & Kendaraan merupakan sektor yang secara musiman meningkat menjelang bulan puasa.
+
+![Perbandingan Sektor](./perbandingan_sektor.png)
 
 **Kontributor poin tertinggi:** Lima Kabupaten/Kota dengan perubahan poin IHK tertinggi adalah Kab. Nunukan (1,35 poin — tertinggi), Kab. Pasaman Barat, Kota Tangerang, Kab. Aceh Tengah, dan Kota Denpasar — kelimanya berkontribusi besar terhadap kenaikan akselerasi kuat pada Maret 2024.
 
@@ -124,9 +132,13 @@ Sektor Makanan & Pakaian serta Rekreasi & Kendaraan merupakan sektor yang secara
 ```
 ├── Dataset_IHK_Jan-Mar_2024.xlsx     # Dataset mentah, cleansing, pivot table, business question
 ├── Laporan_Portofolio_BNSP.pptx      # Dokumentasi lengkap proses & analisis (slide deck)
+├── dashboard_overview.png
+├── peta_panas_regional.png
+├── perbandingan_sektor.png
+├── pivot_table_analysis.png
 └── README.md
 ```
 
 ---
 *Proyek ini merupakan bagian dari portofolio Sertifikasi Kompetensi Data Analyst — BNSP, program pelatihan GenBI Sulawesi Selatan 2025.*
-tan 2025. Data cleansing &amp; pivot table di Excel, dashboard interaktif di Looker Studio.
+-
